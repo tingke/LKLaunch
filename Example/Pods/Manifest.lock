@@ -1,0 +1,16 @@
+PODS:
+  - LKLaunch (0.1.0)
+
+DEPENDENCIES:
+  - LKLaunch (from `../`)
+
+EXTERNAL SOURCES:
+  LKLaunch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LKLaunch: 99451a65281a00c4eaa8c9deadf71fdcb589019c
+
+PODFILE CHECKSUM: 135d5754187f6d16f9af7705fcbe1e0726a1fdd1
+
+COCOAPODS: 1.8.4

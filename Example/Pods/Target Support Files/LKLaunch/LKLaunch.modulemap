@@ -1,0 +1,6 @@
+framework module LKLaunch {
+  umbrella header "LKLaunch-umbrella.h"
+
+  export *
+  module * { export * }
+}

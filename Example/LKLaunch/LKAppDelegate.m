@@ -7,12 +7,14 @@
 //
 
 #import "LKAppDelegate.h"
+#import <LKLaunch/LKLaunchUtils.h>
 
 @implementation LKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [LKLaunchUtils registerLaunchAdWithDuration:4];
     return YES;
 }
 
